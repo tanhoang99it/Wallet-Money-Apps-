@@ -1,0 +1,460 @@
+@font-face {
+    font-family: Gotham;
+    src: url(/font/GothamBook.ttf);
+}
+@font-face {
+    font-family: Gotham1;
+    src: url(/font/GothamBold.ttf)
+}
+@font-face {
+    font-family: Gotham2;
+    src: url(/font/GothamMedium_1.ttf)
+}
+@font-face {
+    font-family: Gotham3;
+    src: url(/font/GothamLight.ttf)
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 30%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+
+
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.header .container {
+    display: flex;
+    padding: 40px 30px 42px 0;
+}
+.header {
+    background-color: #ffffff
+}
+.header--logo {
+    color: #161616;
+    font-size: 28px;
+    line-height: 37px;
+    font-family: 'Roboto Slab';
+    margin-top: 12px;
+}
+.header--logo p {
+    width: 122px;
+    height: 40px;
+    margin: 0 0 0 50px;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+li {
+    list-style-type: none;
+}
+.header--menu ul {
+    padding-left: 50px;
+    padding-top: 18px;
+}
+
+.header--menu li {
+    display: inline;
+    padding-right: 36px;
+    font-family: "Gotham";
+    font-size: 20px;
+    line-height: 23px;
+}
+.header--menu li a{
+    color: #161616;
+    opacity: 0.6;
+}
+.header--menu a:hover {
+    text-decoration-line: underline;
+}
+.icon {
+    display: none;
+}
+.header--login{
+    text-align: right;
+    font-size: 20px;
+    font-family: "Gotham";
+    line-height: 23px;
+}
+.text--login{
+    color: #161616;
+    opacity: 0.6;
+}
+.header--login span {
+    border-right: 0.5px solid #161616;
+    padding: 20px 0;
+    margin: 0 23px 0 22px;
+    opacity: 0.6;
+}
+.test--right__signup {
+    background-color: #13A0FE;
+    padding: 18px 26px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.test--right__signup:hover {
+    background-color: rgb(17, 0, 168);
+}
+.header--bottom {
+    background: linear-gradient(259.16deg, #13A0FE 0%, #0E9AF7 78.07%, #129EFC 78.07%);
+}
+.header--bottom__left {
+    padding: 34px 0 64px 61px;
+}
+.header--bottom .container {
+    display: flex;
+}
+.header--bottom__right {
+    padding: 129px 109px 0 79px;
+}
+.header--bottom__right .botom--right__about h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-family: "Gotham";
+    line-height: 50px;
+    opacity: 0.9;
+    font-weight: 600;
+}
+.header--bottom__right .botom--right__about p {
+    font-size: 28px;
+    color: #ffffff;
+    margin-top: 40px;
+    line-height: 27px;
+    font-family: "Gotham";
+}
+.botom--right__about span {
+    font-family: 'Roboto Slab';
+    line-height: 63px;
+    background-color: #58bbfc;
+}
+.botom--right__about span {
+    color: #ffffff;
+}
+.bottom--right__img {
+    margin-top: 51px;
+}
+.bottom--right__img img:first-child {
+    margin-right: 36px;
+}
+.header--about {
+    background: rgba(48, 48, 255, 0.2);
+}
+.header--about .container {
+    padding: 7px 0 50px 163px;
+}
+.header--about__img img {
+    margin-right: 96px;
+}
+.header--about__img img:last-child {
+    margin-right: 0px;
+}
+.content--text1 h2 {
+    font-family: "Gotham1";
+    font-size: 48px;
+    line-height: 69px;
+    color: #161616;
+    text-align: center;
+    width: 53%;
+    margin-top: 60px;
+    margin-left: 291px;
+}
+.content--text1 p {
+    font-family: "Gotham";
+    font-size: 28px;
+    line-height: 40px;
+    color: #161616;
+    opacity: 0.6;
+    width: 78.5%;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 134px;
+    height: 175px;
+}
+.content--img img {
+    margin-right: 6px;
+}
+.content--img {
+    padding-top: 31px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+
+
+.content--text2__1 h2 {
+    font-size: 48px;
+    font-family: "Gotham1";
+    text-align: center;
+    line-height: 70px;
+    color: #161616;
+    margin-top: 78px;
+}
+.content--text2__2 {
+    background: rgba(18, 158, 252, 0.1);
+    margin-top: 64px;
+}
+.clearfix img {
+    float: right;
+    margin: 50px 50px 50px 0px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.clearfix h2 {
+    display: inline-block;
+    margin: 176px 0px 0px 50px;
+    width: 35%;
+}
+.clearfix h2 {
+    font-family: "Gotham1";
+    font-size: 48px;
+    line-height: 60px;
+    color: #161616;
+    width: 426px;
+}
+.clearfix p {
+    font-family: "Gotham";
+    color: #161616;
+    font-size: 28px;
+    line-height: 40px;
+    opacity: 0.6;
+    width: 553px;
+}
+.clearfix p {
+    margin: 10px 0px 0px 50px;
+    width: 45%;
+}
+.content--text2__4 {
+    background: rgba(18, 158, 252, 0.1);
+    margin-top: 50px;
+}
+.content--text2__3 {
+    background: rgba(18, 158, 252, 0.1);
+    margin-top: 50px;
+}
+.content--text2__3 {
+    display: flex;
+}
+.text2--left {
+    margin: 50px 0 46px 50px;
+}
+.text2--right {
+    padding: 176px 0 0 45px;
+}
+.text2--right h2 {
+    font-family: "Gotham1";
+    font-size: 48px;
+    color: #161616;
+    line-height: 60px;
+}
+.text2--right p {
+    font-family: "Gotham";
+    font-size: 28px;
+    color: #161616;
+    opacity: 0.6;
+    line-height: 40px;
+}
+.text2--right p {
+    margin-top: 10px;
+}
+
+
+
+.content--text3 {
+    font-size: 48px;
+    font-family: "Gotham1";
+    text-align: center;
+    line-height: 60px;
+    color: #161616;
+}
+.content--text3 h2 {
+    margin-top: 85px;
+}
+.text3 {
+    display: flex;
+    margin: 50px 0 0 70px;
+    flex-wrap: wrap;
+}
+.text3--left {
+    background: #129EFC;
+    width: 30%;
+}
+.text3--center {
+    background: #FE808C;
+    margin: 0 28px;
+    width: 30%;
+}
+.text3--left img {
+    max-width: 90%;
+}
+.text3--center img {
+    max-width: 90%;
+}
+.text3--right img {
+    max-width: 90%;
+}
+.text3--right {
+    background: #65D58D;
+    width: 30%;
+}
+.text3 {
+    font-family: "Gotham";
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
+}
+.text3 span {
+    border-bottom: 0.25px solid #ffffff;
+}
+.text3 h4 {
+    margin-top: 76px;
+}
+.text3--left h4 {
+    display: inline-block;
+    width: 75%;
+}
+.text3--center h4 {
+    display: inline-block;
+    width: 75%;
+}
+.text3--left img {
+    margin-right: 172px;
+}
+.text3--center img {
+    margin-top: 45px;
+    margin-right: 22px;
+}
+.text3--right img {
+    margin-top: 55px;
+}
+
+
+
+.footer {
+    background: #13A0FE;
+    margin-top: 137px;
+}
+.footer .container {
+    display: flex;
+}
+.footer--text1 {
+    margin: 104px 130px 0 60px;
+}
+.footer--text2__text1 h4 {
+    font-size: 24px;
+    font-family: "Gotham1";
+    line-height: 30px;
+    color: #ffffff;
+}
+.footer--text2__text2 {
+    padding-top: 20px;
+    padding-bottom: 58px;
+}
+.footer--text2__text2 a {
+    display: block;
+    font-size: 20px;
+    font-family: "Gotham3";
+    line-height: 30px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.footer--text2 {
+    margin: 104px 130px 0 0;
+}
+.footer--text3 {
+    margin: 104px 130px 0 0;
+}
+.footer--text3 input {
+    border: none;
+    padding: 10px 60px 10px 20px;
+    width: 245px;
+}
+.footer--text3 button {
+    border: none;
+    padding: 17px 33px;
+    background: url(/img/1.png) no-repeat center;
+}
+.footer--text3 button {
+    background-color: #0070BB;
+    width: 71px;
+    height: 50px;
+}
+form {
+    display: flex;
+    margin-top: 30px;
+}
+.footer--text4 {
+    margin: 104px 0 0 0px;
+}
+.footer--text2__text1 img {
+    margin-top: 30px;
+    display: block;
+}
+.footer2 {
+    background: #1D2432;
+}
+.footer2 .container {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Gotham3";
+    padding: 32px 0 33px 58px;
+}
+.footer2__left a {
+    color: #ffffff;
+    font-size: 20px;
+}
+.footer2__right {
+    display: flex;
+    padding-right: 58px;
+}
+.footer2__right a {
+    margin-right: 39px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.footer2__right a:last-child {
+    margin-right: 0px;
+}
